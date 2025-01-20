@@ -1,0 +1,7 @@
+tasks:
+  - name: Start Development Server
+    command: npm start
+
+ports:
+  - port: 3000
+    onOpen: open-preview
